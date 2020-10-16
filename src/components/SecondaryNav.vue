@@ -1,24 +1,38 @@
 <template>
   <body>
-    <div
-      class="flex flex-1 ml-20 mr-20 mt-0 border-sec-nav-br bg-sec-nav shadow-sm">
-      <div class="flex border-r border-solid">
-        <span class="pt-2 pl-4 pr-8 pb-2 text-white">Sinu Pood</span>
+    <div class="flex ml-40 mr-40 mt-0 border-sec-nav-br bg-sec-nav shadow-sm">
+      <div
+        class="flex pt-2 pl-6 pr-6 pb-2 border-r border-solid hover:bg-gray-500 cursor-pointer"
+      >
+        <span class="text-white">Sinu Pood</span>
       </div>
-      <div class="flex border-r border-solid">
-        <span class="pt-2 pl-4 pr-8 pb-2 text-white">Sirvi</span>
+      <div
+        class="flex pt-2 pl-6 pr-6 pb-2 border-r border-solid hover:bg-gray-500 cursor-pointer"
+      >
+        <span class="text-white">Sirvi</span>
       </div>
-      <div class="flex border-r border-solid">
-        <span class="pt-2 pl-4 pr-8 pb-2 text-white">Punktide Pood</span>
+      <div
+        class="flex pt-2 pl-6 pr-6 pb-2 border-r border-solid hover:bg-gray-500 cursor-pointer"
+      >
+        <span class="text-white">Punktide Pood</span>
       </div>
-      <div class="flex border-r border-solid">
-        <span class="pt-2 pl-4 pr-8 pb-2 text-white">Uudised</span>
+      <div
+        class="flex pt-2 pl-6 pr-6 pb-2 border-r border-solid hover:bg-gray-500 cursor-pointer"
+      >
+        <span class="text-white">Uudised</span>
       </div>
-      <div class="flex border-r border-solid">
-        <span class="pt-2 pl-4 pr-8 pb-2 text-white">Labor</span>
+      <div
+        class="flex pt-2 pl-6 pr-6 pb-2 border-r border-solid hover:bg-gray-500 cursor-pointer"
+      >
+        <span class="text-white">Labor</span>
       </div>
-      <div class="ml-auto pt-2 pr-8">
-        <input type="text" name="search" />
+      <div class="ml-auto pr-8">
+        <input
+          type="text"
+          name="search"
+          class="bg-search text-black h-10"
+          placeholder="search"
+        />
       </div>
     </div>
   </body>
