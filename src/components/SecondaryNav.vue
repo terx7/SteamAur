@@ -1,22 +1,23 @@
 <template>
   <body>
-    <div class="flex flex-1 mt-0 border-sec-nav-br bg-sec-nav shadow-sm">
-      <div class="flexpt-4 pb-0 border-r border-solid text-white">
-        <span class="pt-4 pr-8 text-white">Sinu Pood</span>
+    <div
+      class="flex flex-1 ml-20 mr-20 mt-0 border-sec-nav-br bg-sec-nav shadow-sm">
+      <div class="flex border-r border-solid">
+        <span class="pt-2 pl-4 pr-8 pb-2 text-white">Sinu Pood</span>
       </div>
-      <div class="flex pt-4 pb-0 border-r border-solid">
-        <span class="pt-4 pr-8 text-white">Sirvi</span>
+      <div class="flex border-r border-solid">
+        <span class="pt-2 pl-4 pr-8 pb-2 text-white">Sirvi</span>
       </div>
-      <div class="pt-4 pb-0 border-r border-solid">
-        <span class="pt-4 pr-8 text-white">Punktide Pood</span>
+      <div class="flex border-r border-solid">
+        <span class="pt-2 pl-4 pr-8 pb-2 text-white">Punktide Pood</span>
       </div>
-      <div class="pt-4 pb-0 border-r border-solid">
-        <span class="pt-4 pr-8 text-white">Uudised</span>
+      <div class="flex border-r border-solid">
+        <span class="pt-2 pl-4 pr-8 pb-2 text-white">Uudised</span>
       </div>
-      <div class="pt-4 pb-0 border-r border-solid">
-        <span class="pt-4 pr-8 text-white">Labor</span>
+      <div class="flex border-r border-solid">
+        <span class="pt-2 pl-4 pr-8 pb-2 text-white">Labor</span>
       </div>
-      <div class="ml-auto pt-2 pb-8">
+      <div class="ml-auto pt-2 pr-8">
         <input type="text" name="search" />
       </div>
     </div>
