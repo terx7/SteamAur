@@ -1,31 +1,13 @@
 <template>
   <body>
     <div class="flex ml-40 mr-40 mt-0 border-sec-nav-br bg-sec-nav shadow-sm">
-      <div
-        class="flex pt-2 pl-6 pr-6 pb-2 border-r border-solid hover:bg-gray-500 cursor-pointer"
-      >
-        <span class="text-white">Sinu Pood</span>
-      </div>
-      <div
-        class="flex pt-2 pl-6 pr-6 pb-2 border-r border-solid hover:bg-gray-500 cursor-pointer"
-      >
-        <span class="text-white">Sirvi</span>
-      </div>
-      <div
-        class="flex pt-2 pl-6 pr-6 pb-2 border-r border-solid hover:bg-gray-500 cursor-pointer"
-      >
-        <span class="text-white">Punktide Pood</span>
-      </div>
-      <div
-        class="flex pt-2 pl-6 pr-6 pb-2 border-r border-solid hover:bg-gray-500 cursor-pointer"
-      >
-        <span class="text-white">Uudised</span>
-      </div>
-      <div
-        class="flex pt-2 pl-6 pr-6 pb-2 border-r border-solid hover:bg-gray-500 cursor-pointer"
-      >
-        <span class="text-white">Labor</span>
-      </div>
+
+    <sec-nav-button>Sinu Pood</sec-nav-button>
+    <sec-nav-button>Sirvi</sec-nav-button>
+    <sec-nav-button>Punktide Pood</sec-nav-button>
+    <sec-nav-button>Uudised</sec-nav-button>
+    <sec-nav-button>Labor</sec-nav-button>
+
       <div class="ml-auto pr-8">
         <input
           type="text"
@@ -36,7 +18,15 @@
       </div>
     </div>
   </body>
-</template>>
+</template>
+<script>
+import SecNavButton from "./SecNavButton.vue";
+export default {
+  components: {
+    SecNavButton,
+  },
+};
+</script>
 <style scoped>
 .secondary-nav {
   display: flex;
