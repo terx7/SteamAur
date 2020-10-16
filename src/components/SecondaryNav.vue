@@ -1,26 +1,26 @@
 <template>
-<body>
-  <div class="secondary-nav">
-    <div>
-      <span class="nav-item">Sinu Pood</span>
+  <body>
+    <div class="flex flex-1 mt-0 border-sec-nav-br bg-sec-nav shadow-sm">
+      <div class="flexpt-4 pb-0 border-r border-solid text-white">
+        <span class="pt-4 pr-8 text-white">Sinu Pood</span>
+      </div>
+      <div class="flex pt-4 pb-0 border-r border-solid">
+        <span class="pt-4 pr-8 text-white">Sirvi</span>
+      </div>
+      <div class="pt-4 pb-0 border-r border-solid">
+        <span class="pt-4 pr-8 text-white">Punktide Pood</span>
+      </div>
+      <div class="pt-4 pb-0 border-r border-solid">
+        <span class="pt-4 pr-8 text-white">Uudised</span>
+      </div>
+      <div class="pt-4 pb-0 border-r border-solid">
+        <span class="pt-4 pr-8 text-white">Labor</span>
+      </div>
+      <div class="ml-auto pt-2 pb-8">
+        <input type="text" name="search" />
+      </div>
     </div>
-    <div>
-      <span class="nav-item">Sirvi</span>
-    </div>
-    <div>
-      <span class="nav-item">Punktide Pood</span>
-    </div>
-    <div>
-      <span class="nav-item">Uudised</span>
-    </div>
-    <div>
-      <span class="nav-item">Labor</span>
-    </div>
-    <div class="search">
-      <input type="text" name="search" />
-    </div>
-  </div>
-</body>
+  </body>
 </template>>
 <style scoped>
 .secondary-nav {
