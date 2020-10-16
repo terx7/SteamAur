@@ -7,7 +7,7 @@ module.exports = {
     theme: {
         extend: {
             backgroundImage: theme => ({
-                'steam-bg': "url( 'https://steamstore-a.akamaihd.net/public/images/v10/colored_body_top2.png?v=2')",
+                'steam-bg': "url( 'https://steamstore-a.akamaihd.net/public/images/v6/colored_body_top2.png?v=2')",
                 'sec-nav-hover': 'linear-gradient(rgb(227, 234, 239) 5%, rgb(199, 213, 224) 95%)',
             }),
             colors: {
